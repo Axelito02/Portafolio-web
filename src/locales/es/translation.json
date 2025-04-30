@@ -1,0 +1,47 @@
+{
+    "navbar": {
+        "home": "Inicio",
+        "about": "Acerca de",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    },
+    "footer": {
+        "developedBy": "Desarrollado por Alexander Rueda",
+        "github": "Publicado con GitHub Pages"
+    },
+    "projects": {
+        "title": "Proyectos",
+        "description": "Estos son algunos de los proyectos en los que he participado, aplicando un enfoque funcional, visualmente coherente y centrado en el usuario para resolver necesidades reales."
+    },
+    "projectDescriptions": {
+        "cloudtrack": "Este proyecto es una aplicación web interactiva desarrollada con React.",
+        "ritualsOfMadness": "Plataforma de gestión de tareas con autenticación y base de datos.",
+        "intuMakeOver": "Landing page para una startup con diseño responsivo.",
+        "signalChase": "Este proyecto es una aplicación web interactiva desarrollada con React.",
+        "timeGrow": "Plataforma de gestión de tareas con autenticación y base de datos.",
+        "findurfuture": "Landing page para una startup con diseño responsivo.",
+        "crookies": "Landing page para una startup con diseño responsivo."
+    },
+    "projectRoles": {
+        "cloudtrack": "Diseñador UX/UI y Desarrollador Front-end",
+        "ritualsOfMadness": "Programador Full Stack",
+        "intuMakeOver": "Diseñador Gráfico y Maquetador",
+        "signalChase": "Diseñador UX/UI y Desarrollador Front-end",
+        "timeGrow": "Programador Full Stack",
+        "findurfuture": "Diseñador Gráfico y Maquetador",
+        "crookies": "Diseñador Gráfico y Maquetador"
+    },
+    "buttons": {
+        "seeCV": "Ver CV",
+        "default": "Haz clic"
+    },
+    "skills": {
+        "title": "Áreas que domino",
+        "description": "Combino herramientas de diseño, desarrollo y organización para crear experiencias digitales que sean funcionales, visualmente coherentes y centradas en el usuario. Cada recurso que utilizo forma parte de un ecosistema que me permite optimizar procesos, mantener un enfoque claro en los objetivos del proyecto y asegurar resultados. Estas son las herramientas que utilizo para dar vida a cada idea, desde la concepción visual hasta su implementación final.",
+        "categories": {
+            "design": "Diseño",
+            "development": "Desarrollo",
+            "tools": "Herramientas"
+        }
+    }
+}

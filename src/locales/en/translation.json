@@ -1,0 +1,47 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "footer": {
+        "developedBy": "Developed by Alexander Rueda",
+        "github": "Published with GitHub Pages"
+    },
+    "projects": {
+        "title": "Projects",
+        "description": "These are some of the projects I’ve worked on, applying a functional approach, visually coherent and user-centered to solve real needs."
+    },
+    "projectDescriptions": {
+        "cloudtrack": "This project is an interactive web application developed with React.",
+        "ritualsOfMadness": "Task management platform with authentication and database.",
+        "intuMakeOver": "Landing page for a startup with responsive design.",
+        "signalChase": "This project is an interactive web application developed with React.",
+        "timeGrow": "Task management platform with authentication and database.",
+        "findurfuture": "Landing page for a startup with responsive design.",
+        "crookies": "Landing page for a startup with responsive design."
+    },
+    "projectRoles": {
+        "cloudtrack": "UX/UI Designer and Front-end Developer",
+        "ritualsOfMadness": "Full Stack Developer",
+        "intuMakeOver": "Graphic Designer and Web Developer",
+        "signalChase": "UX/UI Designer and Front-end Developer",
+        "timeGrow": "Full Stack Developer",
+        "findurfuture": "Graphic Designer and Web Developer",
+        "crookies": "Graphic Designer and Web Developer"
+    },
+    "buttons": {
+        "seeCV": "See CV",
+        "default": "Click"
+    },
+    "skills": {
+        "title": "Areas I master",
+        "description": "I combine design, development, and organizational tools to create digital experiences that are functional, visually coherent, and user-centered. Each resource I use is part of an ecosystem that helps optimize processes, keep a clear focus on project goals, and ensure results. These are the tools I use to bring each idea to life, from visual conception to final implementation.",
+        "categories": {
+            "design": "Design",
+            "development": "Development",
+            "tools": "Tools"
+        }
+    }
+}

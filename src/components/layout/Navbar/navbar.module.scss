@@ -1,0 +1,89 @@
+.navBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(3, 71, 128, 0.9);
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 0;
+    z-index: 1000;
+
+    transition: padding 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+
+    &.scrolled {
+        background-color: rgba(3, 71, 128, 0.5);
+        padding: 1rem 0;
+    }
+
+    img {
+        width: 8rem;
+        cursor: pointer;
+        transition: width 0.3s ease;
+    }
+
+    ul {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+        gap: 8rem;
+        list-style: none;
+
+        li {
+            display: flex;
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                color: white;
+
+                &:hover {
+                    color: #2ca0ff;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.BtnLenguaje {
+    background-color: #034780;
+    /* Fondo azul oscuro */
+    color: white;
+    /* Texto blanco */
+    padding: 10px 20px;
+    /* Espaciado interno */
+    border: none;
+    /* Sin bordes */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    font-size: 14px;
+    /* Tamaño de texto */
+    cursor: pointer;
+    /* Cursor pointer */
+    transition: background-color 0.3s, transform 0.2s;
+    /* Transición suave */
+
+    &:hover {
+        background-color: #2ca0ff;
+        /* Azul brillante al pasar el ratón */
+        transform: scale(1.05);
+        /* Efecto de aumentar el tamaño */
+    }
+
+    &:focus {
+        outline: none;
+        /* Sin contorno al hacer clic */
+        box-shadow: 0 0 0 2px rgba(44, 160, 255, 0.6);
+        /* Sombra suave al foco */
+    }
+
+    &:active {
+        background-color: #027bb5;
+        /* Azul más oscuro cuando se hace clic */
+    }
+}
