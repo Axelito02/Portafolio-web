@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import LogoB from "../../../assets/Images/Logos/LogoBlanco.png"
 import { useTranslation } from "react-i18next";
 import styles from './navbar.module.scss';
 
@@ -31,7 +32,7 @@ export const NavBar = () => {
         >
             <div>
                 <a href="#Profile">
-                    <img src="src/assets/Images/Logos/LogoBlanco.png" alt="Logo principal" />
+                    <img src={LogoB} alt="Logo principal" />
                 </a>
             </div>
             <ul>

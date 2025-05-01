@@ -10,9 +10,9 @@ export const useOpenCV = () => {
         // Determinar la ruta del archivo según el idioma
         let filePath;
         if (language === 'es') {
-            filePath = 'src/assets/Documents/HV-es.pdf'; // Archivo en español
+            filePath = 'https://drive.google.com/file/d/1H8in3BkIKU63A6i3NM7JuTDLjW96hA-S/view?usp=drive_link'; // Archivo en español
         } else {
-            filePath = 'src/assets/Documents/HV-en.pdf'; // Archivo en inglés
+            filePath = 'https://drive.google.com/file/d/1Ar1VpiDi8CcvxXuojhdSYx27kon8txDB/view?usp=drive_link'; // Archivo en inglés
         }
 
         const link = document.createElement('a');
