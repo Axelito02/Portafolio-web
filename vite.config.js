@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/Portafolio-web/",
   plugins: [react()],
-  base: "https://axelito02.github.io/Portafolio-web/"
 })
