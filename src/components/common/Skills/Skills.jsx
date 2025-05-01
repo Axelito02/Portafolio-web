@@ -12,7 +12,6 @@ export const Skills = () => {
             icon: 'iconDesign',
             tools: [
                 { name: 'Figma', icon: 'iconFigma' },
-                { name: 'Canva', icon: 'iconCanva' },
             ],
         },
         {
